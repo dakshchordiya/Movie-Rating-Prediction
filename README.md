@@ -5,6 +5,8 @@
 * [Sentiment Analysis](#Sentiment-Analysis)
 * [Weighted Average of all reviews](#Weighted-Average-of-all-reviews)
 
+_____________________________________________________________________________________________________________________________________________________________
+
 ### About the project
 * This project is a part of my internship at Reliance Jio. 
 
