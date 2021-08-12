@@ -18,7 +18,7 @@
 * This folder contains different types of approaches to predict the sentiments of a user in his review. Each review can have a sentiment value between 1 and 10, with 10 being the best sentiment.
 * As presented in various research papers, the state of the art model for sentiment analysis currently is the XLNet model, I tried to utilise the variations of that pretrained model(Also tried Bert) to predict the sentiments of the user.
 * The Usage of various Code files is as follows:
-  - Download Dataset.ipynb(#Download Dataset.ipynb) : Download the various datasets to be used.
+  - Download Dataset.ipynb : Download the various datasets to be used.
   - Scraping Movie Reviews.ipynb : Scraping IMDb movie reviews and the ratings associated with the ratings of various movies.
   - Multi-Class Sentiment-regression-using-XLNet.ipynb : Treating the sentiment analysis as a regression task and predicting the rating associated with each review as a continuous value.
   - 08_sentiment_analysis_with_bert.ipynb : Uses the Bert pretrained model to predict the review among the following 3 categories : "Positive", "Negative", "Neutral".
@@ -28,4 +28,11 @@
 * The best performing Model among all these codes was "Multi-Class Sentiment-regression-using-XLNet.ipynb", which treats the problem as a regression task and predicts the rating as continuous values.
 
 	
-## Weighted Average of all reviews
+### Weighted Average of all reviews
+* This folder contains the code to scrape the data for reviews and all the other factors involved in getting the weighted average of ratings of al movies from IMDb, running the sentiments analysis model on the reviews to predict the rating associated with that review, and then finally using all the combined processed data of all users for a movie to predicts its final rating.
+* The final input to the model would be an multi-dimensional array of the processed data of all the users to get a final rating of each movie.
+* The Usage of various Code files is as follows:
+	- Scraping Movie Reviews.ipynb :This code helps in scraping all the data available for each movie from the IMDb website that factors in the final rating of a movie.
+	- Review Rating.ipynb : This code Runs the Sentiment analysis from the XLNet model from the previous step to rate the movie from each review.
+	- Reviews average.ipynb : This code finally takes the input array of the complete processed data, run it on a model an predicts a final rating for each movie, that closely resembles the final IMDb rating of each movie.
+ 
