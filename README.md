@@ -5,7 +5,7 @@
 * [Sentiment Analysis](#Sentiment-Analysis)
 * [Weighted Average of all reviews](#Weighted-Average-of-all-reviews)
 
-### About the projec
+### About the project
 * This project is a part of my internship at Reliance Jio. 
 * The project intended to Predict an overall rating for a movie, considering all the reviews and ratings on various websites like IMDb, Rotten Tomatoes, Book My Show, etc.
 * Every Movie Rating was Calculated based on a number of factors like the sentiments in the reviews, the frequency and importance of each user based on his ratings history, The demographic statistics of the users who rated the movie, and many more.
@@ -18,7 +18,7 @@
 * This folder contains different types of approaches to predict the sentiments of a user in his review. Each review can have a sentiment value between 1 and 10, with 10 being the best sentiment.
 * As presented in various research papers, the state of the art model for sentiment analysis currently is the XLNet model, I tried to utilise the variations of that pretrained model(Also tried Bert) to predict the sentiments of the user.
 * The Usage of various Code files is as follows:
-  - Download Dataset.ipynb : Download the various datasets to be used.
+  - Download Dataset.ipynb(#Download Dataset.ipynb) : Download the various datasets to be used.
   - Scraping Movie Reviews.ipynb : Scraping IMDb movie reviews and the ratings associated with the ratings of various movies.
   - Multi-Class Sentiment-regression-using-XLNet.ipynb : Treating the sentiment analysis as a regression task and predicting the rating associated with each review as a continuous value.
   - 08_sentiment_analysis_with_bert.ipynb : Uses the Bert pretrained model to predict the review among the following 3 categories : "Positive", "Negative", "Neutral".
