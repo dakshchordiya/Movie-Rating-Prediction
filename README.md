@@ -21,6 +21,8 @@ ________________________________________________________________________________
 * The purpose of this repository is to present the main python codes used in the project.
 
 * The following the are twparts of project completed thus far:
+
+_____________________________________________________________________________________________________________________________________________________________
 	
 ### Sentiment Analysis
 * This folder contains different types of approaches to predict the sentiments of a user in his review. Each review can have a sentiment value between 1 and 10, with 10 being the best sentiment.
@@ -44,6 +46,7 @@ ________________________________________________________________________________
 
 * The best performing Model among all these codes was "[Multi-Class Sentiment-regression-using-XLNet.ipynb](https://github.com/dakshchordiya/Movie-Rating-Prediction/blob/main/Sentiment%20Analysis/Multi-Class%20Sentiment-regression-using-XLNet.ipynb)", which treats the problem as a regression task and predicts the rating as continuous values.
 
+_____________________________________________________________________________________________________________________________________________________________
 	
 ### Weighted Average of all reviews
 * This folder contains the code to scrape the data for reviews and all the other factors involved in getting the weighted average of ratings of al movies from IMDb, running the sentiments analysis model on the reviews to predict the rating associated with that review, and then finally using all the combined processed data of all users for a movie to predicts its final rating.
