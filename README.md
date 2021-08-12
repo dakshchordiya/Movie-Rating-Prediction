@@ -7,11 +7,17 @@
 
 ### About the project
 * This project is a part of my internship at Reliance Jio. 
+
 * The project intended to Predict an overall rating for a movie, considering all the reviews and ratings on various websites like IMDb, Rotten Tomatoes, Book My Show, etc.
+
 * Every Movie Rating was Calculated based on a number of factors like the sentiments in the reviews, the frequency and importance of each user based on his ratings history, The demographic statistics of the users who rated the movie, and many more.
+
 * The particular aim of the project was to come up with a formula for the weighted average of all the above mentioned factors and rate the movie based on those factors, such that it closely resembles the ratings of those websites.
+
 * The Complete bundle of all the files used in the project can be found at https://drive.google.com/drive/folders/1HWUaIp6qesEq3OLbmgFRb9MaIuBH63d4?usp=sharing.
+
 * The purpose of this repository is to present the main python codes used in the project.
+
 * The following the are twparts of project completed thus far:
 	
 ### Sentiment Analysis
